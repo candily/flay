@@ -18,8 +18,9 @@ Hoe.spec "flay" do
   developer "Ryan Davis", "ryand-ruby@zenspider.com"
   license "MIT"
 
-  dependency "sexp_processor", "~> 4.0"
-  dependency "ruby_parser",    "~> 3.0"
+  dependency "sexp_processor", "4.7.0.release.0"
+  dependency "ruby_parser", "3.8.2.release.0"
+  
   dependency "erubis",         "~> 2.7.0"
   dependency "path_expander",  "~> 1.0"
 
